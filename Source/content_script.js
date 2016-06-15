@@ -33,10 +33,14 @@ function replaceText(v)
    v = v.replace(/Super[ -]*star/g, "Magician");
    v = v.replace(/rock[ -]*stars/g, "douchebags");
    v = v.replace(/rock[ -]*star/g, "douchebag");
+   v = v.replace(/Rock[ -]*star/g, "Douchebag");
    v = v.replace(/guru/g, "mansplainer");
+   v = v.replace(/Guru/g, "Mansplainer");
    v = v.replace(/black belt/g, "douchebag");
    v = v.replace(/jedi/g, "twenty something");
+   v = v.replace(/Jedi/g, "Twenty something");
    v = v.replace(/evangelist/g, "yammerer");
+   v = v.replace(/Evangelist/g, "Yammerer");
   
  
    //gendered terms. Say what they are really thinking
