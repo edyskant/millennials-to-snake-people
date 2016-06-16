@@ -25,6 +25,9 @@ function replaceText(v)
    //hollow perks
    v = v.replace(/(\b)Beer(\b)/g, "$1Grog$2");
    v = v.replace(/(\b)beer(\b)/g, "$1grog$2");
+   v = v.replace(/(\b)kegs on tap(\b)/g, "$1frathouses$2");
+   v = v.replace(/(\b)kegs(\b)/g, "$1frathouses$2");
+   v = v.replace(/(\b)keg(\b)/g, "$1frathouse$2");
    v = v.replace(/pizza/g, "gruel");
 
    
