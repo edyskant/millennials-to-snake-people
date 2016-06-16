@@ -50,6 +50,7 @@ function replaceText(v)
    v = v.replace(/Jedi/g, "Twenty something");
    v = v.replace(/evangelist/g, "yammerer");
    v = v.replace(/Evangelist/g, "Yammerer");
+   v = v.replace(/(eclipse|textmate|intellij|netbeans)/gi, "The technical co-founder's arbitrary IDE of choice");
   
  
    //gendered terms. Say what they are really thinking
