@@ -39,6 +39,11 @@ function replaceText(v)
    v = v.replace(/Rock[ -]*star/g, "Douchebag");
    v = v.replace(/Rock[ -]*Star/g, "Douchebag");
    v = v.replace(/guru/g, "mansplainer");
+   v = v.replace(/meritocracy/g, "Hunger Games");
+   v = v.replace(/competitive\bsalary/g, "ok salary");
+   v = v.replace(/competitive\bcompensation/g, "ok compensation");
+   v = v.replace(/competitive/g, "Game of Thrones");
+
    v = v.replace(/Guru/g, "Mansplainer");
    v = v.replace(/black belt/g, "douchebag");
    v = v.replace(/jedi/g, "twenty something");
