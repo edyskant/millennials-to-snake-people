@@ -34,6 +34,7 @@ function replaceText(v)
    v = v.replace(/rock[ -]*stars/g, "douchebags");
    v = v.replace(/rock[ -]*star/g, "douchebag");
    v = v.replace(/Rock[ -]*star/g, "Douchebag");
+   v = v.replace(/Rock[ -]*Star/g, "Douchebag");
    v = v.replace(/guru/g, "mansplainer");
    v = v.replace(/Guru/g, "Mansplainer");
    v = v.replace(/black belt/g, "douchebag");
