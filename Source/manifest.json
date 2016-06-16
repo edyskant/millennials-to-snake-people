@@ -17,7 +17,24 @@
 	"content_scripts":
 	[
 		{
-			"matches": ["*://*/*"],
+			"matches": [
+                                   "*://*.greenhouse.io/*", 
+                                   "*://*.lever.co/*", 
+                                   "*://*.dice.com/*", 
+                                   "*://*.monster.com/*", 
+                                   "*://*.roberthalf.com/*", 
+                                   "*://*.indeed.com/*", 
+                                   "*://*.linkedin.com/*", 
+                                   "*://*.jobvite.com/*", 
+                                   "*://*.taleo.net/*", 
+                                   "*://*.jobscore.com/*", 
+                                   "*://*.workday.com/*", 
+                                   "*://*.recruiterbox.com/*", 
+                                   "*://*.workday.com/*", 
+                                   "*://*.smartrecruiters.com/*", 
+                                   "*://*.workable.com/*", 
+                                   "*://*.careerbuilder.com/*"
+                                    ],
 			"all_frames": true,
 			"js": ["content_script.js"],
 			"run_at": "document_end"
